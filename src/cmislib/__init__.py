@@ -21,6 +21,7 @@ Define package contents so that they are easy to import.
 """
 
 from cmislib.model import CmisClient
+from cmislib.exceptions import CmisException
 from cmislib.domain import Repository, Folder
 from cmislib.cmis_services import Binding, RepositoryServiceIfc
 
@@ -28,4 +29,5 @@ __all__ = ["Binding",
            "CmisClient",
            "RepositoryServiceIfc",
            "Repository",
+           "CmisException",
            "Folder"]
