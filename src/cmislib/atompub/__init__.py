@@ -16,6 +16,6 @@
 #      specific language governing permissions and limitations
 #      under the License.
 #
-from cmislib.atompub.binding import AtomPubBinding, RepositoryService
+from cmislib.atompub.binding import AtomPubBinding, RepositoryService, getElementNameAndValues
 
-__all__ = ["AtomPubBinding", "RepositoryService"]
+__all__ = ["AtomPubBinding", "getElementNameAndValues", "RepositoryService"]
